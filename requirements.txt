@@ -1,0 +1,3 @@
+lingpy
+numpy
+pandas
