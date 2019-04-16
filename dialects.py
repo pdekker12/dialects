@@ -27,7 +27,7 @@ al = Alignments(DATA_LINGPY_TSV)
 
 # Create orthography profile (remove non-IPA characters)
 profile = simple_profile(al,ref="ipa")
-print(profile)
+print(list(profile))
 
 # Multiple-sequence alignment using SCA model
-#al.align(model="asjp")
+al.align(model="asjp")
